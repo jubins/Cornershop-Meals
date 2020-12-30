@@ -12,8 +12,8 @@ Please follow below steps if you would like to setup the project locally.
     ```
 2. Create a virtual env with Python 3
     ```
-    $ virtualenv myprojectenv
-    $ virtualenv source myprojectenv/bin/activate
+    $ virtualenv venv
+    $ virtualenv source venv/bin/activate
     ```
 3. Install dependences
     ```
@@ -22,6 +22,7 @@ Please follow below steps if you would like to setup the project locally.
 4. I am using Postgres database for storing the data, Redis as message broker, Celery for asynchronous slack messaging and Slack webhook. Configure these environment variables in [`corenershopmeals/env.ini`](https://github.com/jubins/Cornershop-Meals/blob/master/cornershopmeals/env.ini).
 5. Apply Django migrations
     ```
+    $ cd cornershopmeals
     $ python manage.py makemigrations
     $ python manage.py migrate
     ```
