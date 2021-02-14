@@ -1,5 +1,11 @@
 # Cornershop-Meals
-Cornershop meals is a meal management service that provides a very convenient way of meal reservation to Cornershop employees. Allowing admin (Nora) to send slack messages and view all the employee choices.
+Cornershop meals is a meal management app built using Python-Django that provides a very convenient way of meal reservation to employees. This app has following features:
+- There is a custom Login page, Signup page, Employee profiles and Admin panel.
+- Admin can create a menu with various options for employees to choose, modify the menu and send Slack messages to all the employees in the company.
+- Employees can login using their credentials, view the menu and make their food selection. Employees cannot make a selection after 11 AM ET, they also have option to write custom notes to modify their meals or mention their diet restrictions.
+- Employees can only view their own selection, not the selection of other employees.
+- Admin can view selections of all the employees.
+
 Go to the [menu](https://cornershop-meals-app.herokuapp.com/menu/) page to see what's in today's menu and use the app!
 
 ### Setup
